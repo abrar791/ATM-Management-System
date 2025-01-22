@@ -1,11 +1,10 @@
-
+#include<stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
 #include <string.h>
 
 // Define account structure
-typedef st#include <stdio.h>
-ruct {
+typedef struct {
     int account_number;
     char pin[5];
     double balance;
